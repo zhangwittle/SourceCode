@@ -22,6 +22,7 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="lib" path="C:/Users/Wittle/.m2/repository/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.jar">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
@@ -29,15 +30,6 @@
 			<attribute name="maven.groupId" value="org.slf4j"/>
 			<attribute name="maven.artifactId" value="slf4j-api"/>
 			<attribute name="maven.version" value="1.7.16"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Wittle/.m2/repository/ch/qos/logback/logback-classic/1.1.8/logback-classic-1.1.8.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="ch.qos.logback"/>
-			<attribute name="maven.artifactId" value="logback-classic"/>
-			<attribute name="maven.version" value="1.1.8"/>
 			<attribute name="maven.scope" value="compile"/>
 		</attributes>
 	</classpathentry>
@@ -50,6 +42,14 @@
 			<attribute name="maven.scope" value="compile"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Users/Wittle/.m2/repository/ch/qos/logback/logback-classic/1.1.8/logback-classic-1.1.8.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="ch.qos.logback"/>
+			<attribute name="maven.artifactId" value="logback-classic"/>
+			<attribute name="maven.version" value="1.1.8"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
